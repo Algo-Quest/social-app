@@ -24,7 +24,7 @@ export class FollowService {
         if (await this.checkFollowedUserNotSelfFollowed()) {
             return {
                 status: 401,
-                msg: "you can follow yourself"
+                msg: "you can not follow yourself"
             };
         }
 
