@@ -1,6 +1,7 @@
 import { UserModel } from "../../schemas";
 import { LikeModel } from "../../schemas";
 import { FollowModel } from "../../schemas/follow.schema";
+import { ProfileModel } from "../../schemas/profile.schema";
 
 export class ProfileRepository {
     profileModel
